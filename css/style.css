@@ -1,0 +1,181 @@
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* INICIO PLUGIN */
+
+/* Aspecto animación */
+#iniciar {
+    font-size: 3em;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    border-radius: 5%;
+    background-color: #333;
+    box-shadow: 0px 3px 3px 1px black;
+}
+
+#texto-inicio {
+    color: white;
+    border-radius: 5%;
+    background-color: #333;
+    text-shadow: 3px 3px 3px black;
+}
+
+/* Aspecto navbar */
+
+.navbar{
+    text-align: center;
+
+}
+
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover, .elementos-menu:hover .dropbtn {
+  background-color: rgb(57, 134, 235);
+}
+
+li.elementos-menu {
+  display: inline-block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.submenu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.submenu a:hover {background-color: #f1f1f1;}
+
+.elementos-menu:hover .submenu {
+  display: block;
+}
+
+
+
+/*ASPECTO PLUGIN
+
+
+#container {
+    background-color: #333;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 1px 3px black;
+    height: 2.25em;
+}
+
+
+
+.navbar ul {
+    list-style: none;
+
+}
+    
+.navbar ul ul {
+    list-style: none;
+
+
+
+    
+
+}
+
+.navbar a{
+    display: block;
+    padding: 10px 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(57, 134, 235);
+    border-radius: 10%;
+    width: 10em;
+
+    
+}
+
+.navbar a:hover{
+
+    background-color: rgb(131, 179, 241);
+
+
+    
+}
+
+.navbar ul li:hover ul{
+    display: block;
+
+    
+}
+
+.submenu{
+    margin-top: 0.2em;
+}
+
+
+
+
+.elementos-menu {
+    display: inline-block;
+
+    
+    
+}
+
+
+ANIMACIÓN INICIAL: MENÚ
+#iniciar {
+    font-size: 3em;
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    border-radius: 5%;
+    background-color: #333;
+    box-shadow: 0px 3px 3px 1px black;
+}
+
+#texto-inicio {
+    color: white;
+    border-radius: 5%;
+    background-color: #333;
+    text-shadow: 3px 3px 3px black;
+}
